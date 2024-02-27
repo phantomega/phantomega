@@ -32,13 +32,7 @@ With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`
 
 This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
 
-1. Add the following to your Gemfile:
-
-   ```bash
-<!--    group :development do
-      gem 'jekyll-autoreload'
-   end -->
-   ```
+1. Create an empty `.nojekyll` file:
 
 2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
 
