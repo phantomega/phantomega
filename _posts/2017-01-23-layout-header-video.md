@@ -10,6 +10,7 @@ categories:
 tags:
   - video
   - layout
+show_date: true
 date: 2017-01-23
 last_modified_at: 2017-01-23
 ---
