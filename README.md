@@ -35,9 +35,7 @@ This allows for easier installation and updating as you don't have to manage any
 1. Add the following to your Gemfile:
 
    ```bash
-<!--    group :development do
-      gem 'jekyll-autoreload'
-   end -->
+   nothing
    ```
 
 2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
