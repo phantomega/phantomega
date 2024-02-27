@@ -9,6 +9,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   
+# sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
     children:
