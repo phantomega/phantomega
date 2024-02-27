@@ -10,6 +10,7 @@ categories:
 tags:
   - video
   - layout
+date: 2017-01-23 00:00:0 +0800
 ---
 
 This post should display a **header with a responsive video**, if the theme supports it.
