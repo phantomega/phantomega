@@ -17,12 +17,12 @@ minimal_mistakes_skin    : "neon"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Midnight Stab"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "phantomega"
+description              : ""
+url                      : "https://phantomega.github.io/phantomega/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -58,7 +58,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : false # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
@@ -105,10 +105,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "phantomega"
+  avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "bound by darkness, bonded for havoc. We're shadows you can't escape."
+  location         : "unknown"
   email            :
   links:
     - label: "Email"

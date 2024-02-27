@@ -1,13 +1,15 @@
 # main links links
 main:
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Posts"
-    url: /year-archive/
+    url: /portfolio/baz-boom-identity/
+  - title: "Archive"
+    url: /year-archive-grid/
   - title: "Collections"
-    url: /collection-archive/
+    url: /collection-archive-grid/
   - title: "Sitemap"
     url: /sitemap/
+  - title: "Terms & Conditions"
+    url: /terms/
   - title: "Extra Menu Item 1"
     url: /
   - title: "Extra Menu Item 2"

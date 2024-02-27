@@ -32,13 +32,21 @@ With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`
 
 This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
 
-1. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+1. Add the following to your Gemfile:
+
+   ```bash
+<!--    group :development do
+      gem 'jekyll-autoreload'
+   end -->
+   ```
+
+2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
 
    ```bash
    bundle
    ```
 
-2. Set the `theme` in your project's Jekyll `_config.yml` file:
+3. Set the `theme` in your project's Jekyll `_config.yml` file:
 
    ```yaml
    theme: minimal-mistakes-jekyll
