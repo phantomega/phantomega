@@ -4,8 +4,8 @@ main:
     url: /portfolio/baz-boom-identity/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Collections"
+    url: /collection-archive-grid/
   # - title: "Sitemap"
   #   url: /sitemap/
   
