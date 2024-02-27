@@ -21,6 +21,8 @@ To install:
     cd dir
     gem install bundle
    ```
+## Switch Gem <-> Remote
+just revert `remote theme` to `theme` config if running locally.
 
 ---
 
