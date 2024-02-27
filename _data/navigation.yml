@@ -2,8 +2,8 @@
 main:
   - title: "About"
     url: /portfolio/baz-boom-identity/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Year"
+    url: /year-archive/
   - title: "Tags"
     url: /tags-grid/
   # - title: "Sitemap"
