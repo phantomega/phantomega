@@ -8,11 +8,6 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 
 :sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
 
-**If you enjoy this theme, please consider sponsoring:**
-
-[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://www.buymeacoffee.com/mmistakes)
- [![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
-
 **Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and must be retained in the `plugins` array of `_config.yml`. Otherwise you'll encounter `Unknown tag 'include_cached'` errors at build.
 
 [![Minimal Mistakes live preview][2]][1]
@@ -93,7 +88,7 @@ This allows for easier installation and updating as you don't have to manage any
 2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
 
    ```bash
-   bundle
+   bundle exec jekyll serve
    ```
 
 3. Set the `theme` in your project's Jekyll `_config.yml` file:
@@ -124,7 +119,7 @@ To install:
 3. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
 
    ```bash
-   bundle
+   bundle exec jekyll serve
    ```
 
 4. Add `remote_theme: "mmistakes/minimal-mistakes@4.24.0"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
