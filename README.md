@@ -87,7 +87,7 @@ To install:
    bundle exec rake preview
    ```
 
-3. open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory.As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh. 
+3. open your browser at [http://localhost:4000/test/](http://localhost:4000/test/). This starts a Jekyll server using content in the `test/` directory.As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh. 
 
 ---
 
