@@ -4,9 +4,9 @@ excerpt: "The Lhasa Apso is a non-sporting dog breed originating in Tibet."
 header:
   teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
 categories:
-  - Markup
+  - dsa
 tags:
-  - content
+  - dsa
 toc: true
 toc_sticky: true
 ---

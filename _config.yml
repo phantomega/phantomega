@@ -307,3 +307,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _dsa
+  - scope:
+      path: ""
+      type: dsa
+    values:
+      layout: single
+      author_profile: true
+      share: true
