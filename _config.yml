@@ -19,7 +19,7 @@ minimal_mistakes_skin    : "dark"
 locale                   : "en-US"
 title                    : "Midnight Stab"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Sharp, Bold, Ruthless" # site tagline that appears below site title in masthead
 name                     : "phantomega"
 description              : ""
 url                      : "https://phantomega.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
