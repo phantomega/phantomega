@@ -279,9 +279,9 @@ compress_html:
 
 # Collections
 collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
   dsa:
     output: true
     permalink: /:collection/:path/
