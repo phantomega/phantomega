@@ -8,6 +8,22 @@
 
 ## Installation
 
+### Install gem
+
+To install:
+
+1. Download [ruby](https://rubyinstaller.org/downloads/):
+
+1. Open `Powershell`, download bundle 
+
+   ```powershell
+    ruby -v
+    cd dir
+    gem install bundle
+   ```
+
+---
+
 There are three ways to install: as a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible), or forking/directly copying all of the theme files into your project.
 
 ### Gem-based method
@@ -16,19 +32,13 @@ With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`
 
 This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
 
-1. Add the following to your `Gemfile`:
-
-   ```ruby
-   gem "minimal-mistakes-jekyll"
-   ```
-
-2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+1. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
 
    ```bash
    bundle
    ```
 
-3. Set the `theme` in your project's Jekyll `_config.yml` file:
+2. Set the `theme` in your project's Jekyll `_config.yml` file:
 
    ```yaml
    theme: minimal-mistakes-jekyll
@@ -42,9 +52,9 @@ Remote themes are similar to Gem-based themes, but do not require `Gemfile` chan
 
 To install:
 
-1. Create/replace the contents of your `Gemfile` with the following:
+1. Create/replace the contents of your Gemfile with the following:
 
-   ```ruby
+   ```bash
    source "https://rubygems.org"
 
    gem "github-pages", group: :jekyll_plugins
@@ -56,7 +66,7 @@ To install:
 3. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
 
    ```bash
-   bundl
+   bundle
    ```
 
 4. Add `remote_theme: "mmistakes/minimal-mistakes@4.24.0"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
@@ -65,9 +75,19 @@ To install:
 
 ## Development
 
-To set up your environment to develop this theme, run `bundle install`.
+1. To set up your environment to develop this theme, run command:
 
-To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
+   ```bash
+   bundle install
+   ```
+
+2. To test the theme, run: 
+
+   ```bash
+   bundle exec rake preview
+   ```
+
+3. open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory.As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh. 
 
 ---
 
