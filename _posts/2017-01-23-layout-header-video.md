@@ -4,15 +4,8 @@ header:
   video:
     id: -PVofD2A9t8
     provider: youtube
-categories:
-  - Layout
-  - Uncategorized
 tags:
   - video
-  - layout
-show_date: true
-date: 2017-01-23
-last_modified_at: 2017-01-23
 ---
 
 This post should display a **header with a responsive video**, if the theme supports it.
