@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "phantomega"
-  avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "bound by darkness, bonded for havoc. We're shadows you can't escape."
   location         : "unknown"
   email            :
