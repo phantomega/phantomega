@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /portfolio/baz-boom-identity/
   - title: "Year"
-    url: /year-archive/
+    url: /year-grid/
   - title: "Tags"
     url: /tags-grid/
   # - title: "Sitemap"
